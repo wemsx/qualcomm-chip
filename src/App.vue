@@ -1,5 +1,5 @@
 <script setup>
-import { computed, ref, watch } from "vue";
+import { computed, ref } from "vue";
 import { qualcomm8 } from "./static/8.json"
 import { qualcomm6 } from "./static/6.json"
 import { contributors } from "./static/contributors.json"
@@ -12,10 +12,10 @@ const platforms = {
   "6": qualcomm6.reverse()
 }
 
-const portraitMode = computed(() => { return window.innerWidth > window.innerHeight })
+/*const portraitMode = computed(() => { return window.innerWidth > window.innerHeight })
 const isInMobileMode = computed(() => { return /Mobile/i.test(navigator.userAgent) })
 const isInChromeCore = computed(() => { return /Chrome/i.test(navigator.userAgent) })
-const isShowFullScreenBtn = computed(() => { return this.isInChromeCore && !this.isInMobileMode })
+const isShowFullScreenBtn = computed(() => { return this.isInChromeCore && !this.isInMobileMode })*/
 </script>
 
 <template>

@@ -10,7 +10,7 @@
 }
 
 body {
-  font-family: "PingFang SC", "Microsoft Yahei UI", "Microsoft Yahei", "Helvetica", sans-serif;
+  font-family: "LXGW WenKai Screen", sans-serif;
   width: 100%;
   margin: 0 auto;
 }
@@ -28,7 +28,7 @@ kbd,
 pre,
 samp,
 tt {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "LXGW WenKai Screen", Courier, monospace;
 }
 
 :focus,
@@ -79,7 +79,7 @@ tt {
   user-select: none;
 }
 
-@font-face {
+/*@font-face {
   font-family: "DS Digital";
   src: url("./assets/font/DSDigital.ttf");
 }
@@ -98,10 +98,10 @@ tt {
 @font-face {
   font-family: "LLPixel";
   src: url("./assets/font/LLPixel_only_Letter.ttf");
-}
+}*/
 .number {
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-  font-family: "DS Digital", sans-serif !important;
+  font-family: "LXGW WenKai Screen", sans-serif !important;
 }
 
 .bold {
@@ -264,12 +264,12 @@ a.link:active {
   font-size: 22px;
   line-height: 1.5;
   color: #202122;
-  font-family: "LLPixel", sans-serif;
+  font-family: "LXGW WenKai Screen", sans-serif;
 }
 .chip .chip-name p {
   font-size: 15px;
   color: #666;
-  font-family: "PrestigeEliteStd", sans-serif;
+  font-family: "LXGW WenKai Screen", sans-serif;
 }
 
 .info-list-group {
@@ -330,7 +330,7 @@ a.link:active {
   color: #202122;
   text-align: right;
   letter-spacing: 0.5px;
-  font-family: "JetBrainsMonoPureNumber", sans-serif;
+  font-family: "LXGW WenKai Screen", sans-serif;
 }
 .info-list .info-item::after {
   z-index: 1;
@@ -392,7 +392,7 @@ a.link:active {
   display: flex;
 }
 .gpu-list .gpu, .gpu-list .cpu, .cpu-list .gpu, .cpu-list .cpu {
-  font-family: "Galvji", sans-serif;
+  font-family: "LXGW WenKai Screen", sans-serif;
   flex-grow: 1;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -409,7 +409,7 @@ a.link:active {
 .gpu-list .gpu .tag, .gpu-list .cpu .tag, .cpu-list .gpu .tag, .cpu-list .cpu .tag {
   letter-spacing: 1px;
   font-weight: bold;
-  font-family: "Microsoft Yahei", "PingFang SC", sans-serif;
+  font-family: "LXGW WenKai Screen", sans-serif;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;
@@ -423,7 +423,7 @@ a.link:active {
 }
 
 .gpu {
-  font-family: "JetBrains Mono", sans-serif;
+  font-family: "LXGW WenKai Screen", sans-serif;
   padding: 10px 5px;
 }
 .gpu .brand {
@@ -442,7 +442,7 @@ a.link:active {
 }
 
 .cpu {
-  font-family: "Galvji", sans-serif;
+  font-family: "LXGW WenKai Screen", sans-serif;
   padding: 10px 5px;
   text-align: right;
   font-size: 15px;
