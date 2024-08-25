@@ -1,0 +1,84 @@
+{
+    "qualcomm8": [
+        {
+            "name": "A4",
+            "model": "APL0398",
+            "tech": "45",
+            "techCompany": "",
+            "dieSize": "53.3",
+            "isa": "ARMv7",
+            "cpu": [
+                {
+                    "fire": {
+                        "rate": 1.0,
+                        "core": 1
+                    },
+                    "ice": {}
+                }
+            ],
+            "gpu": [
+                {
+                    "brand": "PowerVR SGX535",
+                    "core": 0,
+                    "info": ""
+                }
+            ],
+            "ai": {
+                "core": "",
+                "rate": ""
+            },
+            "release": "2010.03",
+            "devices": [
+                "iPad 1 ( 2010 )",
+                "iPhone 4",
+                "iPod Touch ( 4代 )",
+                "Apple TV ( 2代 )"
+            ],
+            "os": {
+                "init": "",
+                "latest": ""
+            },
+            "img": ""
+        },
+        {
+            "name": "A5",
+            "model": "lalala",
+            "tech": "40",
+            "techCompany": "",
+            "dieSize": "53.3",
+            "isa": "ARMv8",
+            "cpu": [
+                {
+                    "fire": {
+                        "rate": 1.0,
+                        "core": 1
+                    },
+                    "ice": {}
+                }
+            ],
+            "gpu": [
+                {
+                    "brand": "PowerVR SGX535",
+                    "core": 0,
+                    "info": ""
+                }
+            ],
+            "ai": {
+                "core": "",
+                "rate": ""
+            },
+            "release": "2010.03",
+            "devices": [
+                "iPad 1 ( 2010 )",
+                "iPhone 4",
+                "iPod Touch ( 4代 )",
+                "Apple TV ( 2代 )"
+            ],
+            "os": {
+                "init": "",
+                "latest": ""
+            },
+            "img": ""
+        }
+    ]
+}
