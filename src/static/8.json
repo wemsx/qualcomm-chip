@@ -1,25 +1,38 @@
 {
     "qualcomm8": [
         {
-            "name": "A4",
-            "model": "APL0398",
-            "tech": "45",
-            "techCompany": "",
-            "dieSize": "53.3",
-            "isa": "ARMv7",
+            "name": "第三代骁龙 8",
+            "model": "SM8650",
+            "tech": "N4P",
+            "techCompany": "TSMC",
+            "dieSize": "TBD",
+            "isa": "ARMv9.2",
             "cpu": [
                 {
-                    "fire": {
-                        "rate": 1.0,
-                        "core": 1
-                    },
-                    "ice": {}
+                    "name": "Cortex-X4",
+                    "rate": 3.3,
+                    "core": 1
+                },
+                {
+                    "name": "Cortex-A720",
+                    "rate": 3.15,
+                    "core": 3
+                },
+                {
+                    "name": "Cortex-A720",
+                    "rate": 2.96,
+                    "core": 2
+                },
+                {
+                    "name": "Cortex-A520",
+                    "rate": 2.27,
+                    "core": 2
                 }
             ],
             "gpu": [
                 {
-                    "brand": "PowerVR SGX535",
-                    "core": 0,
+                    "brand": "Adreno 750",
+                    "freq": 930,
                     "info": ""
                 }
             ],
@@ -27,57 +40,13 @@
                 "core": "",
                 "rate": ""
             },
-            "release": "2010.03",
-            "devices": [
-                "iPad 1 ( 2010 )",
-                "iPhone 4",
-                "iPod Touch ( 4代 )",
-                "Apple TV ( 2代 )"
-            ],
+            "release": "2023.10",
+            "devices": [],
             "os": {
                 "init": "",
                 "latest": ""
             },
-            "img": ""
-        },
-        {
-            "name": "A5",
-            "model": "lalala",
-            "tech": "40",
-            "techCompany": "",
-            "dieSize": "53.3",
-            "isa": "ARMv8",
-            "cpu": [
-                {
-                    "fire": {
-                        "rate": 1.0,
-                        "core": 1
-                    },
-                    "ice": {}
-                }
-            ],
-            "gpu": [
-                {
-                    "brand": "PowerVR SGX535",
-                    "core": 0,
-                    "info": ""
-                }
-            ],
-            "ai": {
-                "core": "",
-                "rate": ""
-            },
-            "release": "2010.03",
-            "devices": [
-                "iPad 1 ( 2010 )",
-                "iPhone 4",
-                "iPod Touch ( 4代 )",
-                "Apple TV ( 2代 )"
-            ],
-            "os": {
-                "init": "",
-                "latest": ""
-            },
+            "baseband": "骁龙 X75 5G 基带",
             "img": ""
         }
     ]

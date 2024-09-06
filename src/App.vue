@@ -78,24 +78,17 @@ const isShowFullScreenBtn = computed(() => { return this.isInChromeCore && !this
           <div class="cpu" v-for="(cpu, index) in item.cpu" :key="index">
             <div class="tag">CPU</div>
             <div class="fire">
-              <div v-if="cpu.fire.rate">
-                <span>{{ cpu.fire.rate.toFixed(2) }}</span>
-              </div>
-              <span>&nbsp;× {{ cpu.fire.core }}</span>
+              {{ cpu.name }}
             </div>
-            <div class="ice" v-if="cpu.ice.core">
-              <div v-if="cpu.ice.rate">
-                <span>{{ cpu.ice.rate.toFixed(2) }}</span>
-              </div>
-              <span>&nbsp;× {{ cpu.ice.core }}</span>
-            </div>
+            <div class="freq">{{ cpu.rate }} </div>
+            <div class="num info">x {{ cpu.core }} </div>
           </div>
         </div>
 
         <div class="gpu-list">
           <div class="gpu" v-for="(gpu, index) in item.gpu.reverse()" :key="index">
             <div class="tag">GPU</div>
-            <div class="brand"><span>{{ gpu.brand || '-' }}</span><span v-if="gpu.core"> × {{ gpu.core }}</span></div>
+            <div class="brand"><span>{{ gpu.brand || '-' }}</span><span v-if="gpu.freq"> x {{ gpu.freq }} MHz</span></div>
             <div class="info" v-if="gpu.info">{{ gpu.info }}</div>
           </div>
         </div>
@@ -107,6 +100,10 @@ const isShowFullScreenBtn = computed(() => { return this.isInChromeCore && !this
           <div :class="['info-item', { 'invalid': !item.ai.rate }]">
             <div class="key">AI</div>
             <div class="value" v-if="item.ai.rate">× {{ item.ai.core }} {{ item.ai.rate }}</div>
+          </div>
+          <div :class="['info-item', { 'invalid': !item.baseband }]">
+            <div class="key">基带</div>
+            <div class="value" v-if="item.baseband">{{ item.baseband }}</div>
           </div>
         </div>
 

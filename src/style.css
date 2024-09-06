@@ -387,7 +387,7 @@ a.link:active {
 
 .gpu-list, .cpu-list {
   flex-flow: row nowrap;
-  justify-content: stretch;
+  justify-content: center;
   margin-bottom: 10px;
   display: flex;
 }
@@ -456,7 +456,9 @@ a.link:active {
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-end;
-  align-items: center;
+  align-items: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .cpu .ice {
   color: #666;
@@ -467,6 +469,12 @@ a.link:active {
 }
 .cpu .tag {
   background-color: #007AFF;
+}
+
+.cpu .info {
+  letter-spacing: 0;
+  font-weight: 200;
+  color: #808080;
 }
 
 .btns {
