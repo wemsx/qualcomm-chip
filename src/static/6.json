@@ -1,65 +1,28 @@
 {
-    "qualcomm6": [
+    "qualcomm8": [
         {
-            "name": "A3",
-            "model": "APL0398",
-            "tech": "45",
-            "techCompany": "",
-            "dieSize": "53.3",
-            "isa": "ARMv7",
-            "cpu": [
-                {
-                    "fire": {
-                        "rate": 1.0,
-                        "core": 1
-                    },
-                    "ice": {}
-                }
-            ],
-            "gpu": [
-                {
-                    "brand": "PowerVR SGX535",
-                    "core": 0,
-                    "info": ""
-                }
-            ],
-            "ai": {
-                "core": "",
-                "rate": ""
-            },
-            "release": "2010.03",
-            "devices": [
-                "iPad 1 ( 2010 )",
-                "iPhone 4",
-                "iPod Touch ( 4代 )",
-                "Apple TV ( 2代 )"
-            ],
-            "os": {
-                "init": "",
-                "latest": ""
-            },
-            "img": ""
-        },
-        {
-            "name": "A2",
-            "model": "lalala",
-            "tech": "40",
-            "techCompany": "",
-            "dieSize": "53.3",
+            "name": "骁龙6 Gen 1",
+            "model": "SM6450",
+            "tech": "5nm LPP",
+            "techCompany": "Samsung",
+            "dieSize": "TBD",
             "isa": "ARMv8",
             "cpu": [
                 {
-                    "fire": {
-                        "rate": 1.0,
-                        "core": 1
-                    },
-                    "ice": {}
+                    "name": "Cortex-A78",
+                    "rate": 2.2,
+                    "core": 3
+                },
+                {
+                    "name": "Cortex-A55",
+                    "rate": 1.8,
+                    "core": 4
                 }
             ],
             "gpu": [
                 {
-                    "brand": "PowerVR SGX535",
-                    "core": 0,
+                    "brand": "Adreno",
+                    "freq": 0,
                     "info": ""
                 }
             ],
@@ -67,17 +30,15 @@
                 "core": "",
                 "rate": ""
             },
-            "release": "2010.03",
+            "release": "2021 Q1",
             "devices": [
-                "iPad 1 ( 2010 )",
-                "iPhone 4",
-                "iPod Touch ( 4代 )",
-                "Apple TV ( 2代 )"
+                "荣耀 X50"
             ],
             "os": {
                 "init": "",
                 "latest": ""
             },
+            "baseband": "骁龙 X62 5G/LTE",
             "img": ""
         }
     ]

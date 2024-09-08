@@ -1,7 +1,244 @@
 {
     "qualcomm8": [
         {
-            "name": "第三代骁龙 8",
+            "name": "骁龙888",
+            "model": "SM8350",
+            "tech": "5nm LPE",
+            "techCompany": "Samsung",
+            "dieSize": "TBD",
+            "isa": "ARMv8",
+            "cpu": [
+                {
+                    "name": "Cortex-X1",
+                    "rate": 2.84,
+                    "core": 1
+                },
+                {
+                    "name": "Cortex-A78",
+                    "rate": 2.42,
+                    "core": 3
+                },
+                {
+                    "name": "Cortex-A55",
+                    "rate": 1.8,
+                    "core": 4
+                }
+            ],
+            "gpu": [
+                {
+                    "brand": "Adreno 660",
+                    "freq": 840,
+                    "info": ""
+                }
+            ],
+            "ai": {
+                "core": "",
+                "rate": ""
+            },
+            "release": "2021 Q1",
+            "devices": [
+                "小米11",
+                "华为P50"
+            ],
+            "os": {
+                "init": "",
+                "latest": ""
+            },
+            "baseband": "骁龙 X60 5G/LTE",
+            "img": ""
+        },
+        {
+            "name": "骁龙888",
+            "model": "SM8350-AB",
+            "tech": "5nm LPE",
+            "techCompany": "Samsung",
+            "dieSize": "TBD",
+            "isa": "ARMv8",
+            "cpu": [
+                {
+                    "name": "Cortex-X1",
+                    "rate": 3.0,
+                    "core": 1
+                },
+                {
+                    "name": "Cortex-A78",
+                    "rate": 2.42,
+                    "core": 3
+                },
+                {
+                    "name": "Cortex-A55",
+                    "rate": 1.8,
+                    "core": 4
+                }
+            ],
+            "gpu": [
+                {
+                    "brand": "Adreno 660",
+                    "freq": 840,
+                    "info": ""
+                }
+            ],
+            "ai": {
+                "core": "",
+                "rate": ""
+            },
+            "release": "2021 Q1",
+            "devices": [
+                "小米11",
+                "华为P50"
+            ],
+            "os": {
+                "init": "",
+                "latest": ""
+            },
+            "baseband": "骁龙 X60 5G/LTE",
+            "img": ""
+        },
+        {
+            "name": "骁龙8 Gen 1",
+            "model": "SM8450",
+            "tech": "5nm LPP",
+            "techCompany": "Samsung",
+            "dieSize": "TBD",
+            "isa": "ARMv9",
+            "cpu": [
+                {
+                    "name": "Cortex-X2",
+                    "rate": 3.0,
+                    "core": 1
+                },
+                {
+                    "name": "Cortex-A710",
+                    "rate": 2.5,
+                    "core": 3
+                },
+                {
+                    "name": "Cortex-A510",
+                    "rate": 1.8,
+                    "core": 4
+                }
+            ],
+            "gpu": [
+                {
+                    "brand": "Adreno 730",
+                    "freq": 818,
+                    "info": ""
+                }
+            ],
+            "ai": {
+                "core": "",
+                "rate": ""
+            },
+            "release": "2022 Q1",
+            "devices": [
+                "小米12",
+                "真我 GT2 Pro"
+            ],
+            "os": {
+                "init": "",
+                "latest": ""
+            },
+            "baseband": "骁龙 X65 5G/LTE",
+            "img": ""
+        },{
+            "name": "骁龙8+ Gen 1",
+            "model": "SM8475",
+            "tech": "N4",
+            "techCompany": "TSMC",
+            "dieSize": "TBD",
+            "isa": "ARMv9",
+            "cpu": [
+                {
+                    "name": "Cortex-X2",
+                    "rate": 3.2,
+                    "core": 1
+                },
+                {
+                    "name": "Cortex-A710",
+                    "rate": 2.75,
+                    "core": 3
+                },
+                {
+                    "name": "Cortex-A510",
+                    "rate": 2.0,
+                    "core": 4
+                }
+            ],
+            "gpu": [
+                {
+                    "brand": "Adreno 730",
+                    "freq": 900,
+                    "info": ""
+                }
+            ],
+            "ai": {
+                "core": "",
+                "rate": ""
+            },
+            "release": "2022 Q3",
+            "devices": [
+            ],
+            "os": {
+                "init": "",
+                "latest": ""
+            },
+            "baseband": "骁龙 X65 5G/LTE",
+            "img": ""
+        },
+        {
+            "name": "骁龙8 Gen 2",
+            "model": "SM8550-AB",
+            "tech": "N4",
+            "techCompany": "TSMC",
+            "dieSize": "TBD",
+            "isa": "ARMv9",
+            "cpu": [
+                {
+                    "name": "Cortex-X3",
+                    "rate": 3.2,
+                    "core": 1
+                },
+                {
+                    "name": "Cortex-A715",
+                    "rate": 2.8,
+                    "core": 2
+                },
+                {
+                    "name": "Cortex-A710",
+                    "rate": 2.8,
+                    "core": 2
+                },
+                {
+                    "name": "Cortex-A510",
+                    "rate": 2.02,
+                    "core": 3
+                }
+            ],
+            "gpu": [
+                {
+                    "brand": "Adreno 740",
+                    "freq": 680,
+                    "info": ""
+                }
+            ],
+            "ai": {
+                "core": "",
+                "rate": ""
+            },
+            "release": "2022 Q4",
+            "devices": [
+                "小米13",
+                "红米 K60 Pro"
+            ],
+            "os": {
+                "init": "",
+                "latest": ""
+            },
+            "baseband": "骁龙 X70 5G/LTE",
+            "img": ""
+        },
+        {
+            "name": "骁龙8 Gen 3",
             "model": "SM8650",
             "tech": "N4P",
             "techCompany": "TSMC",
@@ -40,13 +277,64 @@
                 "core": "",
                 "rate": ""
             },
-            "release": "2023.10",
-            "devices": [],
+            "release": "2023 Q4",
+            "devices": [
+                "小米14",
+                "IQOO12",
+                "一加12",
+                "魅族21"
+            ],
             "os": {
                 "init": "",
                 "latest": ""
             },
-            "baseband": "骁龙 X75 5G 基带",
+            "baseband": "骁龙 X75 5G/LTE",
+            "img": ""
+        },
+        {
+            "name": "骁龙 8s Gen3",
+            "model": "SM8635",
+            "tech": "N4P",
+            "techCompany": "TSMC",
+            "dieSize": "TBD",
+            "isa": "ARMv9.2",
+            "cpu": [
+                {
+                    "name": "Cortex-X4",
+                    "rate": 3.0,
+                    "core": 1
+                },
+                {
+                    "name": "Cortex-A720",
+                    "rate": 2.8,
+                    "core": 4
+                },
+                {
+                    "name": "Cortex-A520",
+                    "rate": 2.0,
+                    "core": 3
+                }
+            ],
+            "gpu": [
+                {
+                    "brand": "Adreno 735",
+                    "freq": 1100,
+                    "info": ""
+                }
+            ],
+            "ai": {
+                "core": "",
+                "rate": ""
+            },
+            "release": "2023 Q4",
+            "devices": [
+                "小米 Civi 4 Pro"
+            ],
+            "os": {
+                "init": "",
+                "latest": ""
+            },
+            "baseband": "骁龙 X70 5G",
             "img": ""
         }
     ]
