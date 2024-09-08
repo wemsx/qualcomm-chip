@@ -30,7 +30,7 @@ const isShowFullScreenBtn = computed(() => { return this.isInChromeCore && !this
         <div class="type-switch mb-6">
           <div v-for="item in series">
           <div @click="model = item" :class="['switch', { active: model === item }]"><img
-              :src="model === item ? '/qualcomm-placeholder.svg' : '/qualcomm-placeholder.svg'" :alt="item"></div>
+              src="/qualcomm-placeholder.svg" :alt="item"></div>
         </div></div>
       </div>
 
@@ -63,7 +63,7 @@ const isShowFullScreenBtn = computed(() => { return this.isInChromeCore && !this
     <!-- CHIP LIST -->
     <div class="chip" v-for="(item, index) in platforms[model]" :key="`item.name-${index}`">
       <div class="chip-img">
-        <img :src="item.img == '' ? '/qualcomm-placeholder.svg' : item.img" :alt="item.name">
+        <img :src="item.img == '' ? item.img : '/qualcomm-placeholder.svg'" :alt="item.name">
       </div>
 
       <div class="chip-name">
